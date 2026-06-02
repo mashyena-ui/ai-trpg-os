@@ -10,11 +10,7 @@ Noise Log — An immunity file that categorizes and accumulates AI mistakes duri
 Cross-Session Memory — Session state is saved in three files (PlayLog, Session_Start, CharacterSheet). Loading them next time resumes exactly where you left off
 Custom TRPG Support — Fill in the included templates with your own rules and scenario. Any system works
 File Structure
-AI_TRPG_OS_Core_v1_34_EN.json    # OS core
-NoiseLog_AI_TRPG_OS_v2_7_EN.json # Immunity file accumulating AI mistake patterns
-StartPrompt_v1_25.json           # For first session
-App_Template.json                # Rule system template
-Scenario_Template.json           # Scenario template
+コード
 How to Use
 1. Create a Project
 Upload the following to claude.ai's Project feature:
@@ -24,10 +20,10 @@ Your App file
 Your Scenario file
 2. First Session
 Upload StartPrompt_v1_25.json to a new chat and send:
-Load all files and start character creation following the StartPrompt.
+コード
 3. Subsequent Sessions
 Upload the three save files from last session (Session_Start, PlayLog, CharacterSheet) and send:
-Load all files and resume the session.
+コード
 Running a Custom TRPG
 Fill in App_Template.json and Scenario_Template.json with your own rules and scenario.
 For existing systems (e.g. Call of Cthulhu 7th Edition), you can have Claude convert the official PDF using the conversion prompts included in the README.
