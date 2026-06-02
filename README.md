@@ -72,9 +72,3 @@ How saying "I want to play TRPG" led to an OS two months later (Japanese):
 
 Download page with a 3-session actual play log:
 - [AI TRPG OS Download](https://note.com/rosy_swift4587/n/n4410b2b5d7f9)
-
-## License
-
-MIT License
-
-Any included sample scenarios or App files based on Chaosium Inc. / KADOKAWA materials are for personal use only.
